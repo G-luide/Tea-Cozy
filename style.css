@@ -1,0 +1,171 @@
+body{
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  margin: 0;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  margin-top: -69px;
+  z-index: 1;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  margin: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: seashell;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  margin-top: 69px;
+  background: url("img-mission-background.jpg");
+  background-color: black;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  display: flex;
+  align-items: center;
+}
+
+.banner{
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.content h2, h4 {
+  margin: 10px 0;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  
+}
+
+.image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10px;
+  }
+
+
+.image h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  height: 200px;
+  width: 300px;
+}
+
+.locations{
+  background: url("img-locations-background.jpg");
+  background-color: black;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.content2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.boxlocation{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.location h4 {
+  margin-top: 10px;
+}
+
+.contact{
+  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.contact h5{
+  margin-top: 10px;
+}
+
+
+.footer{
+  display: flex;
+  margin-left: 20px;
+}
